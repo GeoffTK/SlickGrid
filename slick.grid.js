@@ -800,10 +800,10 @@ if (typeof Slick === "undefined") {
                         });
                     }
                 });
-                
+
             $headerRowL.empty();
             $headerRowR.empty();
-            
+
             for (var i = 0; i < columns.length; i++) {
                 var m = columns[i];
 
@@ -3057,9 +3057,9 @@ if (typeof Slick === "undefined") {
                             ) {
                             scrollRowIntoView(cell.row, false);
                         }
-
-                        setActiveCellInternal(getCellNode(cell.row, cell.cell));
                     }
+
+                    setActiveCellInternal(getCellNode(cell.row, cell.cell));
                 }
             }
         }
